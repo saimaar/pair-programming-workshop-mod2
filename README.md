@@ -6,14 +6,14 @@ The goal is to create a Restaurant model, view, and controller. The app should h
 * the names of the restaurants should be clickable to the restaurant's show page
 * in the show page, the information of the restaurant (address information) should be displayed
 
-##Bonus Deliverables 
+##Bonus Deliverables
 * A button or link should exist in the show page to redirect back to the index page.
 * Implemenet a new functionality of creating a restaurant
 
-##Create a model
+<!-- ##Create a model
 In the terminal, run
 
-`rails g model Restaurant name city state postal_code street_address`
+`rails g model Restaurant name city state postal_code street_address` -->
 
 ##Create a controller
 In the terminal, run
@@ -24,4 +24,4 @@ The controller generator also generates view pages for us. The final step is to 
 `rails db:migrate`
 `rails db:seed`
 
-There are already examples in the seeds.rb. 
+There are already examples in the seeds.rb.
